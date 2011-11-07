@@ -1,0 +1,13 @@
+/* this is the debateroom */
+
+h3, h4 {
+  text-align: center;
+}
+
+#userOne, #userTwo {
+  width: 400px;
+  float: left;
+  margin-right: 45px;
+  background-color: #ccc;
+  margin-bottom: 45px;
+}

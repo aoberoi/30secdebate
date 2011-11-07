@@ -1,0 +1,13 @@
+script(src='http://staging.tokbox.com/v0.91/js/TB.min.js')
+script
+  alert("#{debate.topic}")
+script(src='/javascripts/debateRoom.js')
+link(rel='stylesheet', type='text/css', href='/stylesheets/debateRoom.css')
+
+h3 #{debate.topic}
+h4 Debate Room
+
+#userOne
+  p #{debate.user1.stance}
+
+#userTwo
